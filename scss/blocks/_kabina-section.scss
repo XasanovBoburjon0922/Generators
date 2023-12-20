@@ -1,0 +1,43 @@
+.kabina-section{
+    padding: 8px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kabina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.kabina__content {
+    width: 980px;
+   text-align: center;
+}
+.kabina__title {
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Helvetica Neue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.kabina__text {
+    width: 800px;
+    color: rgba(51, 51, 51, 0.80);
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+.kabina__card{
+    display: flex;
+}

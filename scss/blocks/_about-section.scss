@@ -1,0 +1,58 @@
+.about-section{
+    padding-top: 68px;
+    padding-bottom: 76px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.about__content {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.about__content-title {
+    margin-bottom: 16px;
+    color: #333;
+    font-feature-settings: 'liga' off;
+    font-family: Helvetica Neue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about__content-text {
+    color: rgba(51, 51, 51, 0.80);
+
+    font-feature-settings: 'liga' off;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about__content-button {
+    margin-top: 160px;
+    width: 196px;
+    height: 52px;
+    display: inline-flex;
+    margin-left: 390px;
+    padding: 15px 48px;
+    justify-content: end;
+    align-items: end;
+    border-radius: 8px;
+    background: #4762FF;
+}
+.about__content-button-text {
+     color: #FFF;
+     background: none;
+     border: none;
+     text-align: center;
+     font-family: Helvetica Neue;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}

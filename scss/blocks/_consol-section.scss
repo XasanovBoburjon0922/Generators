@@ -1,0 +1,79 @@
+.consol-section {
+    padding: 118px 0 90px;
+    background-image: url("../images/form-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.consol {
+    width: 607px;
+    height: 479px;
+    margin-left: 593px;
+    padding: 20px 35px 40px 36px;
+    background-color: #4762FF;
+    border-radius: 15px;
+}
+.consol__box {
+    width: 536px;
+    margin-bottom: 16px;
+}
+.consol__title {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    /* font-family: Helvetica Neue; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.consol__wrap {
+    width: 531px;
+    margin-bottom: 25px;
+}
+.consol__text {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    /* font-family: Helvetica Neue; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.consol__input {
+    width: 532px;
+    height: 56px;
+    margin-bottom: 23px;
+    padding: 18px 23px 19px 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+}
+.consol__input::placeholder{
+    color: #FFF;
+    /* font-family: Helvetica Neue; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.consol__btn {
+    width: 532px;
+    margin-top: 14px;
+    padding: 22px 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: #4762FF;
+    text-align: center;
+    /* font-family: Helvetica Neue; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
